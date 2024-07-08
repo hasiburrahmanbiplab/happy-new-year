@@ -71,7 +71,6 @@ a{
 }
 .banner-text{
     max-width: 632px;
-    border: 1px solid red;
     text-align: center;
 }
 .banner-text .banner-subtitle{
