@@ -239,7 +239,9 @@ a{
 /* offer part end */
 /* holiday part start */
 .holiday-container{
-    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
 }
 .holiday-container .holiday-text{
     max-width: 800px;
@@ -262,7 +264,6 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 45px;
 }
 .holiday-image .image-1 {
     max-width: 674px;
@@ -282,3 +283,29 @@ a{
    height: 100%;
 }
 /* holiday part end */
+/* portfolio part start */
+#portfolio{
+    margin: 100px 0;
+}
+#portfolio-container{}
+.portfolio-container .portfolio-text{
+    max-width: 800px;
+}
+.portfolio-text h2{
+    padding: 15px 0;
+}
+.portfolio-image{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-top: 50px;
+}
+.portfolio-image .image-1{
+    flex-basis :375px;
+}
+.portfolio-image .image-1 img{
+    width: 100%;
+}
+/* portfolio part end */
