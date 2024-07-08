@@ -25,7 +25,6 @@ a{
     max-width: 1188px;
     margin: 0 auto;
     padding: 0 10px;
-    border: 1px solid blue;
 }
 .text-white{
     color: rgba(255, 255, 255, 1) !important;
@@ -96,7 +95,6 @@ a{
     align-items: center;
     flex-direction: column;
     row-gap: 50px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 .discount-text{
@@ -174,7 +172,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .time-content{
     max-width: 550px;
@@ -360,3 +357,63 @@ a{
     padding: 10px 15px;
 }
 /* newsletter part end */
+/* footer part start */
+.footer-container{
+    background-color: #070211;
+    padding: 100px 60px;
+}
+.footer-container .content-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.content-one .inner-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.content-one ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.content-one ul li{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.footer-container .content-one p{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.footer-container .content-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container .content-two ul{
+    max-width: 500px;
+    display: flex;
+    column-gap: 20px;
+    padding: 25px 0;
+}
+
+.content-three{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content-three p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.content-three button{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+/* footer part end  */
